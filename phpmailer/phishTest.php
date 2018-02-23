@@ -25,7 +25,7 @@ s.parentNode.insertBefore(ga, s);
 <div id="login">
 <h2>Gmail SMTP</h2>
 <hr/>
-<form action="phishTest.php" method="post">
+<form action="index.php" method="post">
 <input type="text" placeholder="Enter your email ID" name="email"/>
 <input type="password" placeholder="Password" name="password"/>
 <input type="text" placeholder="To : Email Id " name="toid"/>
@@ -36,7 +36,7 @@ s.parentNode.insertBefore(ga, s);
 </div>
 </div>
 <?php
-require 'PHPMailer-master/src/PHPMailer/PHPMailerAutoload.php';
+require 'PHPMailerAutoload.php';
 if(isset($_POST['send']))
 {
 $email = $_POST['email'];
