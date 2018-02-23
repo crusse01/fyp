@@ -1,3 +1,3 @@
 <?php
-include_once("phpmailer/php_test.php")
+include_once("index.html")
 ?>
