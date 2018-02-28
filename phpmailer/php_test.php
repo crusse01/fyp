@@ -15,7 +15,7 @@ try {
     $mail->Host = 'smtp.sendgrid.net';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
     $mail->Username = 'iterationdemo';                 // SMTP username
-    $mail->Password = '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';                           // SMTP password
+    $mail->Password = 'Password';                           // SMTP password
     $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 587;                                    // TCP port to connect to
 
